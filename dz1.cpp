@@ -26,7 +26,7 @@ public:
 		size = 1; 
 	}
 
-	int stack_size()
+	int queue_size()
 	{
 		return size;
 	}
