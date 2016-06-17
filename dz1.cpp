@@ -15,8 +15,8 @@ private:
 	int size; 
 
 public:
-	template<class T>
-	queue(T x)
+	
+	queue(int x)
 				
 	{
 		head = new(queue_ob); 
@@ -41,8 +41,8 @@ public:
 		tail = temp; 
 	}
 
-	template<class T>
-	void pop(T *ret)
+	
+	void pop(int *ret)
 					  
 	{
 		if (size == 0)
@@ -58,8 +58,8 @@ public:
 		size--; 
 	}
 
-	template<class T>
-	void peek(T *ret)
+
+	void peek(int *ret)
 	{
 		if (size == 0) 
 		{
